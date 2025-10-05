@@ -1,16 +1,65 @@
-# React + Vite
+# Mini-Proyecto con Redux Toolkit
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositorio contiene una aplicación web simple desarrollada para demostrar el uso de **Redux Toolkit** en un entorno de React. La aplicación permite gestionar una lista de usuarios, implementando operaciones CRUD (Crear, Leer, Actualizar, Eliminar) para una gestión de estado eficiente y centralizada.
 
-Currently, two official plugins are available:
+## 🎯 Objetivo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+El objetivo principal de este proyecto es poner en práctica los conceptos fundamentales de Redux Toolkit para el manejo del estado global en una aplicación de React. Sirve como un ejemplo práctico de cómo estructurar _slices_, despachar _actions_ y acceder al estado de la _store_ de una manera moderna y simplificada.
 
-## React Compiler
+## 🚀 Instalación
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Para ejecutar este proyecto en tu entorno local, sigue los siguientes pasos:
 
-## Expanding the ESLint configuration
+1.  **Clona el repositorio:**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    ```bash
+    git clone https://github.com/JulianBcb07/project-redux-toolkit.git
+    ```
+
+2.  **Navega al directorio del proyecto:**
+
+    ```bash
+    cd project-redux-toolkit
+    ```
+
+3.  **Instala las dependencias:**
+    Se recomienda usar `npm` o `yarn`.
+
+    ```bash
+    npm install
+    ```
+
+    o
+
+    ```bash
+    yarn install
+    ```
+
+4.  **Inicia el servidor de desarrollo:**
+
+    ```bash
+    npm run dev
+    ```
+
+    o
+
+    ```bash
+    yarn dev
+    ```
+
+5.  Abre tu navegador y visita `http://localhost:5173` (o el puerto que indique la consola).
+
+## 🛠️ Tecnologías Utilizadas
+
+Este proyecto fue construido utilizando las siguientes tecnologías:
+
+- **[Vite](https://vitejs.dev/):** Herramienta de desarrollo frontend moderna y ultrarrápida.
+- **[React](https://react.dev/):** Biblioteca de JavaScript para construir interfaces de usuario.
+- **[Redux Toolkit](https://redux-toolkit.js.org/):** El conjunto de herramientas oficial, opinado y con baterías incluidas para un desarrollo eficiente con Redux.
+- **[React-Redux](https://react-redux.js.org/):** Enlaces oficiales de React para Redux.
+- **CSS:** Estilos básicos para la interfaz de usuario.
+
+---
+
+Este video ofrece un tutorial completo sobre Redux Toolkit que puede ser útil para comprender los conceptos aplicados en este proyecto.
+[Tutorial Completo de Redux Toolkit con Proyecto](https://www.youtube.com/watch?v=-ovliZG617g)
